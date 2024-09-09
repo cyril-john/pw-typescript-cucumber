@@ -1,0 +1,697 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-products-to-cart;authenticated-users---add-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Authenticated Users - Add to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 555289300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309610400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30028860100,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('//span[text()=\\'Login\\']')\n\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:58)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:57:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the username as \"ortoni\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enter the password as \"pass1234$\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user search for a \"Roomies\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user add the book to the cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the cart badge should get updated",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2171768499,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-products-to-cart;authenticated-users---add-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Authenticated Users - Add to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155153700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262378700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30023457000,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('//span[text()=\\'Login\\']')\n\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:58)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:57:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the username as \"ortonikc\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enter the password as \"pass1234\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user search for a \"The Simple Wild\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user add the book to the cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the cart badge should get updated",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1959050199,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-products-to-cart;unauthenticated-user---add-to-cart",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "UnAuthenticated User - Add to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 145404999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254503899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6968327999,
+              "error_message": "locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//span[text()=\\'Login\\']')\n\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:58)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:57:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user search for a \"All of Us with Wings\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user add the book to the cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the cart badge should get updated",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 552048100,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fail",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-products-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add products to cart",
+    "tags": [],
+    "uri": "src\\test\\features\\addToCart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-success",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169810699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235507299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1673524100,
+              "error_message": "locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//span[text()=\\'Login\\']')\n\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:58)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:57:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the username as \"ortoni11\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the password as \"Pass1234\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login should be success",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 161105200,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-not-be-success",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login should not be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 153906700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 201914499,
+              "error_message": "page.goto: net::ERR_CONNECTION_CLOSED at https://bookcart.azurewebsites.net/\nCall log:\n  - navigating to \"https://bookcart.azurewebsites.net/\", waiting until \"load\"\n\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:9:24)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\loginSteps.ts:44:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User enter the username as \"koushik\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User enter the password as \"Passkoushik\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 17,
+            "name": "Login should fail",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 109929600,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication tests",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-user;register-new-user",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Register new User",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148261199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the register page",
+            "match": {
+              "location": "src\\test\\steps\\registerUsersSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248530700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I created a new user",
+            "match": {
+              "location": "src\\test\\steps\\registerUsersSteps.ts:16"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 644216200,
+              "error_message": "page.type: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('input[formcontrolname=\\'firstname\\']')\n\n    at RegisterPage.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:33:25)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:4:12)\n    at RegisterPage.registerUser (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\pages\\registerPage.ts:71:16)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:18:24)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:14:53)\n    at C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:8:71\n    at __awaiter (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\test\\steps\\registerUsersSteps.ts:62:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I confirm user registration is success",
+            "match": {
+              "location": "src\\test\\steps\\registerUsersSteps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 74774000,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:82:14)\n    at step (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\cyril\\App\\GitWorkspace\\pw-typescript-cucumber\\src\\hooks\\hooks.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register User",
+    "tags": [],
+    "uri": "src\\test\\features\\registerFeature.feature"
+  }
+]
