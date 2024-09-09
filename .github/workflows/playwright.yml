@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
-        node-version: 20.15
+        node-version: 20.17
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers
@@ -23,5 +23,5 @@ jobs:
       if: always()
       with:
         name: Report
-        path: test-results
+        path: test-results/reports
         retention-days: 2
